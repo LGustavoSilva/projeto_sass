@@ -1,0 +1,24 @@
+@use 'config/reset';
+@use 'config/variaveis';
+@use 'sections/product';
+@use 'header/cabecalho';
+@use 'sections/menu';
+@use 'config/image';
+
+body {
+    background-color: variaveis.$corPrincipal;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 56px 0;
+}
